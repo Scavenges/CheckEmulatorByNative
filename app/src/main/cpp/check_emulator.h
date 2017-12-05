@@ -2,6 +2,7 @@
 #define CHECK_EMULATOR_IN_NDK_CHECK_EMULATOR_H
 
 #include "jni.h"
+#include "debugger.h"
 
 JNIEXPORT jint JNICALL  check(JNIEnv *env, jobject context);
 

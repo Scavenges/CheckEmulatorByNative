@@ -15,10 +15,25 @@ android {
             }
         }
     }
+
+
+    signingConfigs {
+        release {
+            storeFile file("../keystore/androidyuan.keystore") //请看目录
+            storePassword "weizongwei"
+            keyAlias "client1"
+            keyPassword "weizongwei"
+        }
+    }
+
     buildTypes {
         release {
             minifyEnabled false
+            signingConfig signingConfigs.release
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+            jniDebuggable false
+
         }
     }
     externalNativeBuild {
