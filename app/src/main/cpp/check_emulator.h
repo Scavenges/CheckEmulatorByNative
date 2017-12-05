@@ -3,7 +3,7 @@
 
 #include "jni.h"
 
-JNIEXPORT jint JNICALL  check(JNIEnv *env, jobject instance);
+JNIEXPORT jint JNICALL  check(JNIEnv *env, jobject context);
 
 #endif
 
