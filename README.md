@@ -1,8 +1,6 @@
 ## Check_Emulator_In_NDK
 
 
-- [ ] 在native里 做检查 是否为模拟器，用C调用java;
-
 - [X] native代码里判断是否为debug的so，或者release的so,  通过 CMAKE_BUILD_TYPE 这个参数 判断是否是release还是debug的包;
 
 ```
@@ -10,6 +8,7 @@
 
 ```
 
+- [ ] 在native里 做检查 是否为模拟器,用C调用java,如果是debug的so不做检查是否为模拟器
 
 
 
