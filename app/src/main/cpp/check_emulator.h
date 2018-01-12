@@ -4,6 +4,13 @@
 #include "jni.h"
 #include "debugger.h"
 
+
+/**
+ *
+ * @param env
+ * @param context
+ * @return  1:通过(非模拟器) else :不通过(是模拟器)
+ */
 JNIEXPORT jint JNICALL  check(JNIEnv *env, jobject context);
 
 #endif
