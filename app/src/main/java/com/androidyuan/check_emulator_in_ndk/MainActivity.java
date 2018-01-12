@@ -25,9 +25,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     /**
-     * A native method that is implemented by the 'native-lib' native library,
-     * which is packaged with this application.
+     * 检查 是模拟器则返回0
+     * @param context //TODO  delete the params
+     * @return 1:不是模拟器 0:是模拟器
      */
     public native int check(Object context);
 }
