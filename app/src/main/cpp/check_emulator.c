@@ -41,8 +41,8 @@ int equals(const char *str,char * key){
 
 JNIEXPORT jint JNICALL  check(JNIEnv *env, jobject context) {
 
-//    if(isdebug()==1)
-//        return 1;
+    if(isdebug()==1)//debug模式不校验
+        return 1;
 
 // 这里是模仿java代码的检查是否为模拟器 必要参数 context
 
