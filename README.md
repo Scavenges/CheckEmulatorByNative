@@ -23,3 +23,7 @@ NDK_DEBUG  宏 参考参考 build生成的          ndkBuild_build_command.txt
 ```
 ndk.dir=/xxx/xxx/xx
 ```
+
+
+## journal:
+1.发现机顶盒会被当做模拟器处理。(该issue 后面作者没有回复,如果遇到同样的问题，请加日志检查函数哪里return了)
