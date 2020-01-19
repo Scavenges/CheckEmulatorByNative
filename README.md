@@ -26,4 +26,4 @@ ndk.dir=/xxx/xxx/xx
 
 
 ## journal:
-1.发现机顶盒会被当做模拟器处理。(该issue 后面作者没有回复,如果遇到同样的问题，请加日志检查函数哪里return了)
+1.[发现机顶盒会被当做模拟器处理](https://github.com/BruceWind/AESJniEncrypt/issues/32)。(之后issue作者没有回复,如果遇到同样的问题，请加日志检查函数哪里return了)
