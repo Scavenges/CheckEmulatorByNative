@@ -1,4 +1,8 @@
+
 ## CheckEmulatorInNDK
+
+
+[中文](https://github.com/Scavenges/CheckEmulatorByNative/blob/master/README_zh.md)
 
 This repo is seppoed to check whether you are running in emlulator.
 
